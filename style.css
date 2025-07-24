@@ -427,6 +427,13 @@ article .icon {
   padding: 0.5rem;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0rem;
+  margin-top: 1rem;
+}
+
 .contact-info-container {
   display: flex;
   align-items: center;
@@ -440,7 +447,7 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {
