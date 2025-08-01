@@ -21,24 +21,26 @@
 @media screen and (max-width: 1400px) {
   #profile {
     height: 85vh;
-    margin-bottom: 12rem;
-    padding-bottom: 4rem;
+    margin-bottom: 8rem;
+    padding-bottom: 2rem;
   }
   #profile .section__pic-container {
-    height: 280px;
-    width: 280px;
+    height: 320px;
+    width: 320px;
   }
   .about-containers {
     flex-wrap: wrap;
+    margin-top: 1rem;
   }
   #about {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   #experience {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
+    padding-top: 2rem;
   }
   #projects {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
   #contact,
   #projects {
