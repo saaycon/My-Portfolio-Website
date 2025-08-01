@@ -20,23 +20,32 @@
 
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 85vh;
-    margin-bottom: 8rem;
-    padding-bottom: 2rem;
+    height: 65vh;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    gap: 1rem;
   }
   #profile .section__pic-container {
-    height: 320px;
-    width: 320px;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+  }
+  .section__text {
+    margin-top: -2rem;
   }
   .about-containers {
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 0;
   }
   #about {
-    padding-top: 1rem;
+    padding-top: 0;
+    height: 85vh;
+  }
+  .about-details-container {
+    gap: 1rem;
   }
   #experience {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     padding-top: 2rem;
   }
   #projects {
