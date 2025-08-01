@@ -1,10 +1,44 @@
+@media screen and (max-width: 2880px) and (min-width: 1401px) {
+  #profile {
+    height: 85vh;
+    margin-bottom: 10rem;
+  }
+  #profile .section__pic-container {
+    height: 300px;
+    width: 300px;
+  }
+  #about {
+    padding-top: 2rem;
+  }
+  #experience {
+    margin-bottom: 8rem;
+  }
+  #projects {
+    padding-top: 4rem;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: 85vh;
+    margin-bottom: 12rem;
+    padding-bottom: 4rem;
+  }
+  #profile .section__pic-container {
+    height: 280px;
+    width: 280px;
   }
   .about-containers {
     flex-wrap: wrap;
+  }
+  #about {
+    padding-top: 2rem;
+  }
+  #experience {
+    margin-bottom: 10rem;
+  }
+  #projects {
+    padding-top: 4rem;
   }
   #contact,
   #projects {
