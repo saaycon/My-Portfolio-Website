@@ -33,22 +33,34 @@
   section,
   .section-container {
     height: fit-content;
-    margin-bottom: 5rem;
   }
   section {
     margin: 0 5%;
-    padding: 4rem 0;
+    padding-top: 10vh;
+  }
+  #profile {
+    height: auto;
+    margin-bottom: 6rem;
+  }
+  #about {
+    margin-top: 2rem;
+  }
+  .section__pic-container {
+    width: 225px;
+    height: 225px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 2rem;
+  }
+  .experience-details-container {
+    margin-top: 3rem;
   }
   #projects {
     margin-top: 2rem;
   }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
+  .color-container {
+    margin-top: 2rem;
   }
 }
 
@@ -111,5 +123,20 @@
   }
   .text-container {
     text-align: justify;
+  }
+  
+  .project-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .color-container {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  
+  .about-containers {
+    margin: 0;
   }
 }
